@@ -4,7 +4,7 @@ const TicketController = require("../src/controllers/Ticket");
 const route = express.Router();
 
 // heath route
-route.get("/heath", (req, res) => {
+route.get("/health", (req, res) => {
   res.status(200).json({ message: "success" });
 });
 
